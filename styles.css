@@ -1,0 +1,64 @@
+body {
+    color:rgb(135, 124, 124);
+    background:rgb(255, 234, 238);
+    margin: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-bottom: 70px;
+ }
+ 
+ header {
+     border-bottom: solid 2px rgb(246, 126, 195);
+     padding: 20px;
+     font-size: 32px;
+     color: rgb(241, 99, 123);
+ }
+ 
+ .chamda{
+     background: rgb(255, 244, 244);
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .chamada-texto {
+     margin-right: 10%;
+ }
+ 
+ h1{
+     font-size: 40px;
+ }
+
+ p {
+    font-size: 20px;
+ }
+
+ img{
+    height: 200px;
+ }
+
+ .categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+ }
+
+ .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+ }
+
+ .categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+ }
+
+ .categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rbg(255, 130, 199);
+ }
+
+ .categoria h2 {
+    color: rbg(241, 99, 123);
+ }
